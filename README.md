@@ -1,5 +1,10 @@
 # astro_docker
 
+## How to start?
+- Download astro from official
+  - downloaded repo has to be inside of `astro` folder (if you don't want to make changes) 
+- docker-compose -f docker-compose.yml up (--build | "only the first time")
+
 ## …or create a new repository on the command line
 ```
 echo "# astro_docker" >> README.md
