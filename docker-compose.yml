@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+    astro-app:
+        build:
+            context: ./astro
+        ports:
+            - "3000:4321"
+        container_name: astro-app
+        volumes:
+            - ./astro:/astro-app
+            - /astro-app/node_modules
